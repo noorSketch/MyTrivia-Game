@@ -16,10 +16,10 @@ const questions =
       question: "Siapakah Perdana Menteri pertama Malaysia?",
       options: ["Tun Razak", "Tun Mahathir", "Tunku Abdul Rahman", "Tun Hussein Onn"],
       answer: 2,
-      explanation: "Tunku Abdul Rahman adalah Perdana Menteri pertama Malaysia."
+      explanation: "Diiktiraf sebagai Bapa Kemerdekaan . Beliau memimpin perjuangan kemerdekaan Tanah Melayu daripada British pada 1957 dan menubuhkan Malaysia pada 1963. "
     },
     {
-      question: "Apakah nama Persekutuan Tanah Melayu sebelum merdeka?",
+      question: "Apakah Malayan Union?",
       options: ["Malaya", "Tanah Melayu", "Malaysia", "Singapura"],
       answer: 1,
       explanation: "Sebelum merdeka, nama rasmi adalah Persekutuan Tanah Melayu."
@@ -285,27 +285,27 @@ const questions =
   warisan: [
     {
       question: "Tarian Sumazau berasal dari negeri mana?",
-      options: ["Sarawak", "Sabah", "Perak", "Melaka"],
-      answer: 1,
-      explanation: "Tarian Sumazau adalah tarian tradisional Sabah."
+      options: ["Sarawak", "Melaka", "Perak", "Sabah"],
+      answer: 3,
+      explanation: "Tarian tradisional ikonik suku kaum Kadazandusun di Sabah, terkenal dengan gerak lemah lembut menyerupai burung helang terbang. Kebiasaannya semasa Pesta Kaamatan (menuai padi) atau majlis keramaian dengan iringan gong. "
     },
     {
       question: "Apakah nama muzik tradisional Malaysia yang menggunakan gendang dan gong?",
-      options: ["Dikir Barat", "Gamelan", "Nasyid", "Joget"],
-      answer: 1,
-      explanation: "Gamelan adalah muzik tradisional dengan alat seperti gong dan gendang."
+      options: ["Dikir Barat", "Joget", "Nasyid", "Gamelan"],
+      answer: 3,
+      explanation: "Perkataan gamelan berasal daripada bahasa Jawa gamel yang bermaksud memukul atau menukul. "
     },
     {
       question: "Apakah nama pakaian tradisional Melayu lelaki?",
       options: ["Baju Melayu", "Baju Kurung", "Baju Kebaya", "Baju Batik"],
       answer: 0,
-      explanation: "Baju Melayu adalah pakaian tradisional lelaki Melayu."
+      explanation: "Sinonim dengan majlis formal, adat, dan perayaan seperti Hari Raya, dengan dua jenis potongan utama iaitu Cekak Musang (kolar bertindan) dan Teluk Belanga (leher bulat/sulaman). "
     },
     {
       question: "Apakah jenis seni yang melibatkan anyaman daun pandan?",
-      options: ["Batik", "Songket", "Menganyam", "Ukiran Kayu"],
+      options: ["Batik", "Songket", "Anyaman", "Ukiran Kayu"],
       answer: 2,
-      explanation: "Menganyam adalah seni tradisional menggunakan daun pandan."
+      explanation: "Satu warisan kraf tradisional Melayu yang menghasilkan produk fungsian dan hiasan seperti tikar, tas tangan, topi, dan bekas serbaguna. "
     },
     {
       question: "Apakah nama rumah tradisional di Sarawak?",
@@ -383,30 +383,52 @@ const questions =
       explanation: "Nasi Lemak, Roti Canai dan Laksa adalah makanan tradisional terkenal."
     },
     {
-      question: "Apakah nama perayaan tradisional masyarakat Cina di Malaysia?",
+      question: "Apakah nama perayaan masyarakat Cina di Malaysia?",
       options: ["Hari Raya", "Deepavali", "Tahun Baru Cina", "Wesak"],
       answer: 2,
-      explanation: "Tahun Baru Cina adalah perayaan tradisional masyarakat Cina."
+      explanation: "Tahun Baru Cina disambut selama 15 hari dengan tradisi berkumpul keluarga, makan besar, memberi angpau, dan tarian singa/naga untuk membawa tuah dan kemakmuran. Hari ke-15 perayaan dikenali sebagai Chap Goh Meh."
     },
     {
-      question: "Apakah nama rumah tradisional orang Melayu di Malaysia?",
-      options: ["Rumah Panjang", "Rumah Kampung", "Rumah Melayu", "Rumah Limas"],
-      answer: 3,
-      explanation: "Rumah Limas adalah rumah tradisional orang Melayu di Malaysia."
+      question: "Manakah bukan permainan tradisional Malaysia?",
+      options: ["Congkak", "Gasing", "Sape", "Tarik upih"],
+      answer: 2,
+      explanation: "Sape bukan permainan tradisional Malaysia, tetapi alat muzik tradisional."
     },
     {
-      question: "Apakah nama tarian tradisional yang menggunakan kipas di Malaysia?",
+      question: "Apakah nama tarian tradisional yang sering dikaitkan dengan budaya Cina?",
       options: ["Tarian Kipas", "Tarian Zapin", "Tarian Joget", "Tarian Inang"],
       answer: 0,
-      explanation: "Tarian Kipas menggunakan kipas sebagai alat utama."
+      explanation: "Berasal dari opera Peking tradisional, ia menggambarkan gerakan memetik putik bunga yang mekar. Ia sering dipersembahkan oleh sekumpulan penari (contohnya 9 orang) dengan kipas berwarna-warni."
     },
     {
       question: "Apakah nama alat muzik tradisional yang menggunakan kulit kambing?",
-      options: ["Gendang", "Seruling", "Sape", "Kompang"],
-      answer: 0,
-      explanation: "Gendang menggunakan kulit kambing sebagai permukaan bunyi."
+      options: ["Gambus", "Kenong", "Sape", "Kompang"],
+      answer: 3,
+      explanation: "Kompang ialah alat muzik tradisional Melayu jenis membranofon yang berasal dari Timur Tengah, popular dalam majlis perkahwinan, perarakan, dan sambutan rasmi."
+    },
+
+    // 10 more
+
+    {
+      question: "Apakah nama permainan tradisional yang menggunakan penutup botol kaca?",
+      options: ["Wau", "Badminton", "Congkak", "Ceper"],
+      answer: 3,
+      explanation: "Permainan ceper dimainkan oleh dua orang atau lebih yang mana pemain perlu menimbang, menyusun, dan menjentik ceper untuk mengumpul markah tertinggi, dengan teknik melempar ceper secara terserak ke udara."
+    },
+    {
+      question: "Apakah perayaan terpenting bagi penganut agama Buddha?",
+      options: ["Deepavali", "Thaipusan", "Wesak", "Gawai"],
+      answer: 2,
+      explanation: "Diraikan pada bulan Mei (bulan penuh/bulan purnama) untuk memperingati tiga peristiwa penting dalam hidup Siddhartha Gautama Buddha: kelahiran, pencapaian pencerahan agung, dan kemangkatannya (nirvana)."
+    },
+    {
+      question: " Manakah antara dibawah, bukan salah satu daripada tiga kumpulan utama Orang Asli di Malaysia",
+      options: ["Senoi", "Negrito", "Semai", "Melayu-proto"],
+      answer: 2,
+      explanation: "Bahasa Semai (Engrok Semai) merupakan salah satu bahasa Orang Asli daripada rumpun Austro-Asia (cabang Mon-Khmer) yang dituturkan oleh kira-kira 33,000 orang, terutamanya di Perak dan Pahang."
     }
   ]
 };
+
 
 export default questions;
